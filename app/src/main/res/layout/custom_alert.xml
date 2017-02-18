@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:id="@+id/alert_title"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:typeface="serif"
+        android:singleLine="false"
+        android:padding="5dp"
+        android:textColor="#fcf9f9"
+        android:background="#3f3e8a" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Content of dialog box"
+        android:id="@+id/message_alert_dialog"
+        android:layout_gravity="left|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:typeface="sans"
+        android:fontFamily="serif-monospace"
+        android:paddingLeft="10dp" />
+
+    <View android:id="@+id/separator"
+        android:background="#ffffff"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical ="true"
+        android:layout_alignParentTop="true"
+        android:foreground="#0338fc"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

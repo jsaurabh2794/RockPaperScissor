@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RockPaperScissor</string>
+    <string name="computer">COMPUTER</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:text="ROCK"
+        android:id="@+id/rock"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:textColor="@color/button_material_light"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@color/colorAccent" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:text="PAPER"
+        android:id="@+id/paper"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:textColor="@color/button_material_light"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        android:background="@color/colorAccent" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:text="SCISSOR"
+        android:id="@+id/scissor"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:textColor="@color/button_material_light"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        android:background="@color/colorAccent" />
+</LinearLayout>
